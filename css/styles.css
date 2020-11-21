@@ -285,7 +285,9 @@ body {
 .form-input {
     width: 100%;
     margin: 0;
-    padding: 12px 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 42px;
     font: inherit;
     font-weight:400;
     font-size: 12px;
@@ -326,6 +328,9 @@ body {
 }
 .form-comment::placeholder {
     color:  rgba(117,117,117,0.5);
+}
+.form-comment:focus {
+    border:1px solid #2196F3;
 }
 .form-agree {
     margin-top: 0;
